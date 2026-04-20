@@ -58,6 +58,7 @@ const Songs = [
 // `;
 
 // ここから下は自由に編集可
+OutputLists.innerHTML =``
 Songs.forEach((song)=>{
     console.log(song.songName);
     OutputLists.innerHTML += `
